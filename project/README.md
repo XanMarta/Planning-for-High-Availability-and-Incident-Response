@@ -121,7 +121,7 @@ sudo systemctl restart nginx
 
     `helm repo add prometheus-community https://prometheus-community.github.io/helm-charts`
 
-    `helm install prometheus prometheus-community/kube-prometheus-stack -f "values.yaml" --namespace monitoring`
+    `helm install prometheus prometheus-community/kube-prometheus-stack -f "values.yaml" --namespace monitoring --version 40.0.0`
 
 <!-- `helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring` -->
 
